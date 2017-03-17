@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viw.backgroundColor = TestHeader.uiColorFromString("green")
+        viw.backgroundColor = HuConfigration.uiColor(fromString: "green")
+        viw.backgroundColor = UIColor.uiColor(fromString: "red")
     }
 
     override func didReceiveMemoryWarning() {
